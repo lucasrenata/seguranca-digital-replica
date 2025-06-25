@@ -10,7 +10,7 @@ const Footer = () => {
           {/* Company Info */}
           <div>
             <img 
-              src="/lovable-uploads/9f1b3c5e-0d5a-4c98-a8f4-2b6e4d5f8a9c.png" 
+              src="/lovable-uploads/603c4c4b-6749-4641-a65b-63a129462dc8.png" 
               alt="Source Seguros" 
               className="h-10 w-auto mb-4 filter brightness-0 invert"
             />
