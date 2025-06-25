@@ -10,7 +10,6 @@ const Header = () => {
   const navigation = [
     { name: 'Início', href: '/' },
     { name: 'Seguro Auto', href: '/auto-seguro' },
-    { name: 'Seguro Vida', href: '/vida-seguro' },
     { name: 'Seguro Residencial', href: '/residencial-seguro' },
     { name: 'Seguro Empresarial', href: '/empresarial-seguro' },
     { name: 'Contato', href: '/contato' },
