@@ -19,7 +19,7 @@ const WhatsAppButton = () => {
       <img
         src="https://jorgecouriseguros.com.br/wp-content/uploads/2022/12/botao-whatsapp-jsc.svg"
         alt="WhatsApp"
-        className="h-7 w-7" // Mantemos as classes de tamanho para a imagem
+        className="h-10 w-10" // Mantemos as classes de tamanho para a imagem
       />
     </a>
     );
