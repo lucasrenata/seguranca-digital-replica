@@ -10,7 +10,7 @@ const Footer = () => {
           {/* Company Info */}
           <div>
             <img 
-              src="/lovable-uploads/603c4c4b-6749-4641-a65b-63a129462dc8.png" 
+              src="/lovable-uploads/9f1b3c5e-0d5a-4c98-a8f4-2b6e4d5f8a9c.png" 
               alt="Source Seguros" 
               className="h-10 w-auto mb-4 filter brightness-0 invert"
             />
@@ -23,11 +23,11 @@ const Footer = () => {
           <div>
             <h3 className="text-lg font-semibold mb-4">Nossos Seguros</h3>
             <ul className="space-y-2">
-              <li><Link to="/auto-seguro" className="text-gray-300 hover:text-white transition-colors">Seguro Auto</Link></li>
-              <li><Link to="/vida-seguro" className="text-gray-300 hover:text-white transition-colors">Seguro Vida</Link></li>
-              <li><Link to="/residencial-seguro" className="text-gray-300 hover:text-white transition-colors">Seguro Residencial</Link></li>
-              <li><Link to="/empresarial-seguro" className="text-gray-300 hover:text-white transition-colors">Seguro Empresarial</Link></li>
-              <li><Link to="/saude-seguro" className="text-gray-300 hover:text-white transition-colors">Seguro Saúde</Link></li>
+              <li><Link to="/auto-seguro" className="text-gray-300 hover:text-primary-400 transition-colors">Seguro Auto</Link></li>
+              <li><Link to="/vida-seguro" className="text-gray-300 hover:text-primary-400 transition-colors">Seguro Vida</Link></li>
+              <li><Link to="/residencial-seguro" className="text-gray-300 hover:text-primary-400 transition-colors">Seguro Residencial</Link></li>
+              <li><Link to="/empresarial-seguro" className="text-gray-300 hover:text-primary-400 transition-colors">Seguro Empresarial</Link></li>
+              <li><Link to="/saude-seguro" className="text-gray-300 hover:text-primary-400 transition-colors">Seguro Saúde</Link></li>
             </ul>
           </div>
 
@@ -37,7 +37,7 @@ const Footer = () => {
             <div className="space-y-3">
               <div className="flex items-center">
                 <Phone className="h-5 w-5 mr-3 text-primary-400" />
-                <span className="text-gray-300">(11) 99999-9999</span>
+                <span className="text-gray-300">(11) 97832-5699</span>
               </div>
               <div className="flex items-center">
                 <Mail className="h-5 w-5 mr-3 text-primary-400" />
@@ -58,10 +58,10 @@ const Footer = () => {
           <div>
             <h3 className="text-lg font-semibold mb-4">Links Rápidos</h3>
             <ul className="space-y-2">
-              <li><Link to="/" className="text-gray-300 hover:text-white transition-colors">Início</Link></li>
-              <li><Link to="/contato" className="text-gray-300 hover:text-white transition-colors">Contato</Link></li>
-              <li><a href="#" className="text-gray-300 hover:text-white transition-colors">Sobre Nós</a></li>
-              <li><a href="#" className="text-gray-300 hover:text-white transition-colors">FAQ</a></li>
+              <li><Link to="/" className="text-gray-300 hover:text-primary-400 transition-colors">Início</Link></li>
+              <li><Link to="/contato" className="text-gray-300 hover:text-primary-400 transition-colors">Contato</Link></li>
+              <li><a href="#" className="text-gray-300 hover:text-primary-400 transition-colors">Sobre Nós</a></li>
+              <li><a href="#" className="text-gray-300 hover:text-primary-400 transition-colors">FAQ</a></li>
             </ul>
           </div>
         </div>

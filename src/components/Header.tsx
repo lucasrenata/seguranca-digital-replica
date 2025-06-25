@@ -1,7 +1,7 @@
 
 import { useState } from 'react';
 import { Link, useLocation } from 'react-router-dom';
-import { Menu, X, Phone, Mail } from 'lucide-react';
+import { Menu, X } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 
 const Header = () => {
@@ -20,34 +20,12 @@ const Header = () => {
 
   return (
     <header className="bg-white shadow-lg sticky top-0 z-50">
-      {/* Top bar with contact info */}
-      <div className="bg-primary-800 text-white py-2">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="flex justify-between items-center text-sm">
-            <div className="flex items-center space-x-4">
-              <div className="flex items-center">
-                <Phone className="h-4 w-4 mr-1" />
-                <span>(11) 99999-9999</span>
-              </div>
-              <div className="flex items-center">
-                <Mail className="h-4 w-4 mr-1" />
-                <span>contato@sourceseguros.com.br</span>
-              </div>
-            </div>
-            <div className="hidden md:block">
-              <span>Horário de Atendimento: Seg-Sex 8h às 18h</span>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      {/* Main header */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center py-4">
           <div className="flex items-center">
             <Link to="/" className="flex items-center">
               <img 
-                src="/lovable-uploads/603c4c4b-6749-4641-a65b-63a129462dc8.png" 
+                src="/lovable-uploads/9f1b3c5e-0d5a-4c98-a8f4-2b6e4d5f8a9c.png" 
                 alt="Source Corretora de Seguros" 
                 className="h-12 w-auto"
               />
@@ -70,7 +48,7 @@ const Header = () => {
           </nav>
 
           <div className="hidden lg:flex">
-            <Button className="bg-primary-600 hover:bg-primary-700">
+            <Button className="bg-gradient-primary hover:opacity-90 text-white">
               Solicitar Cotação
             </Button>
           </div>
@@ -107,7 +85,7 @@ const Header = () => {
               </Link>
             ))}
             <div className="pt-2">
-              <Button className="w-full bg-primary-600 hover:bg-primary-700">
+              <Button className="w-full bg-gradient-primary hover:opacity-90 text-white">
                 Solicitar Cotação
               </Button>
             </div>

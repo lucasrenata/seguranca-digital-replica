@@ -5,6 +5,7 @@ import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
+import WhatsAppButton from '@/components/WhatsAppButton';
 
 const Index = () => {
   const services = [
@@ -54,12 +55,12 @@ const Index = () => {
       <Header />
       
       {/* Hero Section */}
-      <section className="bg-gradient-to-r from-primary-800 to-primary-600 text-white py-20">
+      <section className="bg-gradient-primary text-white py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center animate-fade-in">
             <h1 className="text-4xl md:text-6xl font-bold mb-6">
               Sua Proteção é Nossa
-              <span className="block text-accent">Prioridade</span>
+              <span className="block text-blue-200">Prioridade</span>
             </h1>
             <p className="text-xl md:text-2xl mb-8 text-blue-100 max-w-3xl mx-auto">
               Oferecemos as melhores soluções em seguros para proteger você, sua família e seu patrimônio
@@ -101,7 +102,7 @@ const Index = () => {
                     {service.description}
                   </CardDescription>
                   <Link to={service.link}>
-                    <Button className="w-full bg-primary-600 hover:bg-primary-700">
+                    <Button className="w-full bg-gradient-primary hover:opacity-90 text-white">
                       Saiba Mais
                     </Button>
                   </Link>
@@ -134,7 +135,7 @@ const Index = () => {
               </div>
             </div>
             
-            <div className="bg-primary-50 p-8 rounded-lg">
+            <div className="bg-gradient-to-br from-primary-50 to-primary-100 p-8 rounded-lg">
               <div className="text-center">
                 <Star className="h-16 w-16 text-yellow-400 mx-auto mb-4" />
                 <h3 className="text-2xl font-bold text-gray-900 mb-4">
@@ -152,7 +153,7 @@ const Index = () => {
       </section>
 
       {/* CTA Section */}
-      <section className="bg-primary-600 py-16">
+      <section className="bg-gradient-primary py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-3xl font-bold text-white mb-4">
             Pronto para se proteger?
@@ -174,6 +175,7 @@ const Index = () => {
       </section>
 
       <Footer />
+      <WhatsAppButton />
     </div>
   );
 };
