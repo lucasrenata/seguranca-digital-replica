@@ -24,13 +24,14 @@ const Header = () => {
         <div className="flex justify-between items-center py-4">
           <div className="flex items-center">
             <Link to="/" className="flex items-center">
-              <img 
-                src="/lovable-uploads/logo_moderna_v2_sem_fundo.png" 
-                alt="Source Corretora de Seguros" 
+              <img
+                src="/lovable-uploads/logo_moderna_v2_sem_fundo.png"
+                alt="Source Corretora de Seguros"
                 className="h-16 w-auto"
               />
             </Link>
           </div>
+
 
           {/* Desktop Navigation */}
           <nav className="hidden lg:flex space-x-8">
