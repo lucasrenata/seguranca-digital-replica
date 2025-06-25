@@ -1,4 +1,3 @@
-
 import { useState } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import { Menu, X } from 'lucide-react';
@@ -14,9 +13,11 @@ const Header = () => {
     { name: 'Seguro Vida', href: '/vida-seguro' },
     { name: 'Seguro Residencial', href: '/residencial-seguro' },
     { name: 'Seguro Empresarial', href: '/empresarial-seguro' },
-    { name: 'Seguro Saúde', href: '/saude-seguro' },
     { name: 'Contato', href: '/contato' },
   ];
+
+  // URL do WhatsApp
+  const whatsappUrl = 'https://wa.me/5511978325699';
 
   return (
     <header className="bg-white shadow-lg sticky top-0 z-50">
@@ -31,7 +32,6 @@ const Header = () => {
               />
             </Link>
           </div>
-
 
           {/* Desktop Navigation */}
           <nav className="hidden lg:flex space-x-8">
@@ -48,10 +48,18 @@ const Header = () => {
             ))}
           </nav>
 
+          {/* Botão WhatsApp Desktop */}
           <div className="hidden lg:flex">
-            <Button className="bg-gradient-primary hover:opacity-90 text-white">
-              Solicitar Cotação
-            </Button>
+            <a
+              href={whatsappUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-block"
+            >
+              <Button className="bg-gradient-primary hover:opacity-90 text-white">
+                Solicitar Cotação
+              </Button>
+            </a>
           </div>
 
           {/* Mobile menu button */}
@@ -86,9 +94,16 @@ const Header = () => {
               </Link>
             ))}
             <div className="pt-2">
-              <Button className="w-full bg-gradient-primary hover:opacity-90 text-white">
-                Solicitar Cotação
-              </Button>
+              <a
+                href={whatsappUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="w-full block"
+              >
+                <Button className="w-full bg-gradient-primary hover:opacity-90 text-white">
+                  Solicitar Cotação
+                </Button>
+              </a>
             </div>
           </div>
         </div>
