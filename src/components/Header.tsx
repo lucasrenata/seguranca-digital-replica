@@ -26,7 +26,7 @@ const Header = () => {
           <div className="flex items-center">
             <Link to="/" className="flex items-center">
               <img
-                src="/lovable-uploads/logo_moderna_v2_branco.png"
+                src="/lovable-uploads/logo_moderna_v2.png"
                 alt="Source Corretora de Seguros"
                 className="h-16 w-auto"
               />
