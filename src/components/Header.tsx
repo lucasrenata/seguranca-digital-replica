@@ -20,14 +20,14 @@ const Header = () => {
 
   return (
     <header className="bg-white shadow-lg sticky top-0 z-50">
-      <div className="max-w-9xl mx-auto px-5 sm:px-8 lg:px-10">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center py-4">
           <div className="flex items-center">
             <Link to="/" className="flex items-center">
               <img 
                 src="/lovable-uploads/logo_moderna_v2.png" 
                 alt="Source Corretora de Seguros" 
-                className="h-14 w-auto"
+                className="h-12 w-38"
               />
             </Link>
           </div>
