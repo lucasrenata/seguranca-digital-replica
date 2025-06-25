@@ -27,7 +27,7 @@ const Header = () => {
               <img 
                 src="/lovable-uploads/logo_moderna_v2_sem_fundo.png" 
                 alt="Source Corretora de Seguros" 
-                className="h-21 w-auto"
+                className="h-16 w-auto"
               />
             </Link>
           </div>
