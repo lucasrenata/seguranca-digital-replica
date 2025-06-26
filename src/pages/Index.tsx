@@ -139,26 +139,29 @@ const Index = () => {
       </section>
 
       {/* CTA Section */}
-      <section className="bg-gradient-primary py-16">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h2 className="text-3xl font-bold text-white mb-4">
-            Pronto para se proteger?
-          </h2>
-          <p className="text-xl text-blue-100 mb-8 max-w-2xl mx-auto">
-            Entre em contato conosco e descubra qual seguro é ideal para você
-          </p>
-          <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Link to="/contato">
-              <Button size="lg" className="bg-white text-primary-600 hover:bg-gray-100">
-                Falar com Especialista
-              </Button>
-            </Link>
-            <Button size="lg" variant="outline" className="border-white text-white hover:bg-white hover:text-primary-600">
-              WhatsApp
-            </Button>
-          </div>
-        </div>
-      </section>
+<section className="bg-gradient-primary py-16">
+  <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+    <h2 className="text-3xl font-bold text-white mb-4">
+      Pronto para se proteger?
+    </h2>
+    <p className="text-xl text-blue-100 mb-8 max-w-2xl mx-auto">
+      Entre em contato conosco e descubra qual seguro é ideal para você
+    </p>
+    <div className="flex justify-center">
+      <a
+        href="https://wa.me/5511978325699"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <Button size="lg" className="bg-white text-primary-600 hover:bg-gray-100">
+          Falar com Especialista
+        </Button>
+      </a>
+    </div>
+  </div>
+</section>
+
+
 
       <Footer />
       <WhatsAppButton />
