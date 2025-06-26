@@ -11,7 +11,7 @@ const Footer = () => {
 <div>
   <img 
     src="logo_source.png" 
-    alt="Source Seguros" 
+    alt="" 
     className="h-8 w-8 mb-4 object-contain filter brightness-0 invert"
   />
   <p className="text-gray-300 mb-4">
