@@ -151,23 +151,34 @@ const Contato = () => {
         </div>
       </section>
 
-      {/* Map Section */}
-      <section className="py-16 bg-gray-50">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-8">
-            <h2 className="text-3xl font-bold text-gray-900 mb-4">Localização</h2>
-            <p className="text-lg text-gray-600">Visite nosso escritório na Rua. Guaicurus</p>
-          </div>
-          
-          <div className="bg-gray-300 h-96 rounded-lg flex items-center justify-center">
-            <div className="text-center">
-              <MapPin className="h-12 w-12 text-gray-500 mx-auto mb-4" />
-              <p className="text-gray-600">Mapa interativo</p>
-              <p className="text-sm text-gray-500">R. Guaicurus, 608 - Água Branca, São Paulo - SP, CEP: 05033-001</p>
-            </div>
-          </div>
-        </div>
-      </section>
+     {/* Map Section */}
+<section className="py-16 bg-gray-50">
+  <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div className="text-center mb-8">
+      <h2 className="text-3xl font-bold text-gray-900 mb-4">Localização</h2>
+      <p className="text-lg text-gray-600">Visite nosso escritório na Rua. Guaicurus</p>
+    </div>
+    
+    <div className="rounded-lg overflow-hidden shadow-lg">
+      <iframe
+        title="Mapa Interativo - Source Corretora"
+        src="https://www.google.com/maps?q=R.+Guaicurus,+608+-+Água+Branca,+São+Paulo+-+SP,+05033-001&output=embed"
+        width="100%"
+        height="384" // h-96 = 384px
+        style={{ border: 0 }}
+        allowFullScreen=""
+        loading="lazy"
+        referrerPolicy="no-referrer-when-downgrade"
+      ></iframe>
+    </div>
+    <div className="text-center mt-4">
+      <p className="text-sm text-gray-500">
+        R. Guaicurus, 608 - Água Branca, São Paulo - SP, CEP: 05033-001
+      </p>
+    </div>
+  </div>
+</section>
+
 
       <Footer />
     </div>
