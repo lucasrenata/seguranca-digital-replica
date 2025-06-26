@@ -54,21 +54,14 @@ const Index = () => {
     <div className="min-h-screen bg-white">
       <Header />
       
-     {/* Hero Section */}
-<section className="bg-gradient-primary text-white py-20">
-  <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-    <div className="text-center animate-fade-in">
-      <h1 className="text-4xl md:text-6xl font-bold mb-6">
-        Sua Proteção é Nossa
-        <span className="block text-blue-200">Prioridade</span>
-      </h1>
-      <p className="text-xl md:text-2xl mb-8 text-blue-100 max-w-3xl mx-auto">
-        Oferecemos as melhores soluções em seguros para proteger você, sua família e seu patrimônio
-      </p>
-      {/* Botões removidos conforme solicitado */}
-    </div>
-  </div>
+     {/* Hero Section - Apenas Imagem */}
+<section
+  className="w-full h-[400px] md:h-[600px] bg-center bg-cover"
+  style={{ backgroundImage: "url('public/lovable-uploads/logo_moderna_v2.png')" }}
+>
+  {/* Se quiser um overlay escuro, adicione um div aqui */}
 </section>
+
 
 
       {/* Services Section */}
