@@ -9,13 +9,14 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
          {/* Company Info */}
 <div>
-  <div className="flex justify-center items-center mb-4">
-    <img 
-      src="/logo_source.png" 
-      alt="Logo Source Seguros" 
-      className="h-8 w-8 object-contain filter brightness-0 invert"
-    />
-  </div>
+  <div className="flex justify-left items-center mb-4">
+  <img
+    src="/logo_source.png"
+    alt="Logo Source Seguros"
+    className="h-8 w-8 object-contain"
+  />
+</div>
+
   <p className="text-gray-300 mb-4">
     Sua segurança é nossa prioridade. Oferecemos as melhores soluções em seguros para proteger você e sua família.
   </p>
