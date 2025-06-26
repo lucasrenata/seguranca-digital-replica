@@ -57,7 +57,7 @@ const Index = () => {
      {/* Hero Section - Apenas Imagem */}
 <section
   className="w-full h-[400px] md:h-[600px] bg-center bg-cover"
-  style={{ backgroundImage: "url('/hero_image_seguros')" }}
+  style={{ backgroundImage: "url('/hero_image_seguros.png')" }}
 >
   {/* Se quiser um overlay escuro, adicione um div aqui */}
 </section>
