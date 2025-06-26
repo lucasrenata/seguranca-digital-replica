@@ -124,9 +124,9 @@ const Contato = () => {
                       <MapPin className="h-8 w-8 text-primary-600 mr-4 flex-shrink-0 mt-1" />
                       <div>
                         <h4 className="font-semibold text-gray-900 mb-2">Endereço</h4>
-                        <p className="text-gray-600 mb-1">Av. Paulista, 1000 - Sala 1001</p>
-                        <p className="text-gray-600 mb-1">Bela Vista - São Paulo - SP</p>
-                        <p className="text-gray-600">CEP: 01310-100</p>
+                        <p className="text-gray-600 mb-1">R. Guaicurus 608 </p>
+                        <p className="text-gray-600 mb-1">Água Branca - São Paulo - SP</p>
+                        <p className="text-gray-600">CEP: 05033-001 </p>
                       </div>
                     </div>
                   </CardContent>
@@ -138,7 +138,7 @@ const Contato = () => {
                       <Clock className="h-8 w-8 text-primary-600 mr-4 flex-shrink-0 mt-1" />
                       <div>
                         <h4 className="font-semibold text-gray-900 mb-2">Horário de Atendimento</h4>
-                        <p className="text-gray-600 mb-1">Segunda a Sexta: 8h às 18h</p>
+                        <p className="text-gray-600 mb-1">Segunda a Sexta: 9h às 18h</p>
                         <p className="text-gray-600 mb-1">Sábado: 8h às 12h</p>
                         <p className="text-gray-600">Domingo: Fechado</p>
                       </div>
@@ -156,14 +156,14 @@ const Contato = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-8">
             <h2 className="text-3xl font-bold text-gray-900 mb-4">Localização</h2>
-            <p className="text-lg text-gray-600">Visite nosso escritório na Av. Paulista</p>
+            <p className="text-lg text-gray-600">Visite nosso escritório na Rua. Guaicurus</p>
           </div>
           
           <div className="bg-gray-300 h-96 rounded-lg flex items-center justify-center">
             <div className="text-center">
               <MapPin className="h-12 w-12 text-gray-500 mx-auto mb-4" />
               <p className="text-gray-600">Mapa interativo</p>
-              <p className="text-sm text-gray-500">Av. Paulista, 1000 - São Paulo - SP</p>
+              <p className="text-sm text-gray-500">R. Guaicurus, 608 - Água Branca, São Paulo - SP, CEP: 05033-001</p>
             </div>
           </div>
         </div>
