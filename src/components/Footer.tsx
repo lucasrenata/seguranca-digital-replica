@@ -10,7 +10,7 @@ const Footer = () => {
          {/* Company Info */}
 <div>
   <img 
-    src="logo_source.png" 
+    src="public/lovable-uploads/logo_source.png" 
     alt="" 
     className="h-8 w-8 mb-4 object-contain filter brightness-0 invert"
   />
